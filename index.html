@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Addition</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="assets/javascript/game.js" type="text/javascript"></script>
+
+</head>
+<body>
+	<div id = "container">
+		<div id ="mainHeader">
+			<h1><strong>Crystal Addition</strong></h1>
+		</div>
+		<div id = "row">
+			<div id = col-1 class="col-xs-4 col-sm-4 col-md-4">
+				<div id = "click">Click on a Crystal</div>
+				<div class="btn-group">
+					<button class = "crystal" id = "butPurple" data-butVal = "0"><img src="assets/images/crystal1.jpg"></button>
+					<button class = "crystal" id = "butBlue" data-butVal = "0"><img src="assets/images/cystal5.jpg"></button>
+					<button class = "crystal" id = "butClear" data-butVal = "0"><img src="assets/images/crystal3.jpg"></button>
+				</div>
+			</div>
+			<div id = col-2	class = "col-xs-4 col-sm-4 col-md-4">
+				<div id="goalnum">
+					<h2>Goal Number</h2>
+					<p id="disGoalNum" class="display"></p>
+				</div>
+				<div id="currentResult">
+					<h2>Current Result</h2>
+					<p id="disCurrentResult" class="display"></p>
+				</div>
+			</div>
+			<div id = col-3 class = "col-xs-4 col-sm-4 col-md-4">
+				<div id="wins">
+					<h2>Wins</h2>
+					<div id="disWins" class="display"></div>
+				</div>
+				<div id="losses">
+					<h2>Losses</h2>
+					<div id="disLosses" class="display"></div>
+				</div>
+
+			</div>
+	</div>
+</body>
+</html>
